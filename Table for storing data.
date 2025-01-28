@@ -1,0 +1,12 @@
+CREATE TABLE company (
+  customerID INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  email varchar(255) NOT NULL,
+  phonenumber varchar(15) NOT NULL
+);
+
+INSERT INTO company VALUES (0001, 'Mark', 'markcuban@gmail.com', 766545433);
+INSERT INTO company VALUES (0002, 'Emillia', 'Emillia@gmail.com', 706436534);
+INSERT INTO company VALUES (0003, 'Tyrion', 'Tyrion@gmail.com', 8233542340);
+
+SELECT * FROM company;
